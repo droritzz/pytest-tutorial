@@ -31,5 +31,6 @@ jobs:
         pytest -v
     - name: Publish the package
       run: |
+        cp .pypirc $HOME/
         python3 setup.py sdist 
         twine upload --config-file ../.pypirc dist/*
