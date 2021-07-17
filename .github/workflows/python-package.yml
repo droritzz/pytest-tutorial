@@ -33,4 +33,4 @@ jobs:
       run: |
         cp .pypirc $HOME/
         python3 setup.py sdist 
-        twine upload --config-file ../.pypirc dist/*
+        twine upload dist/*
