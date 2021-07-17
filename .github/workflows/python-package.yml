@@ -32,4 +32,4 @@ jobs:
     - name: Publish the package
       run: |
         python3 setup.py sdist 
-        twine upload --config-file .pypirc dist/*
+        twine upload --config-file ../.pypirc dist/*
