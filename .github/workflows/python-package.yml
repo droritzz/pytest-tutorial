@@ -31,5 +31,5 @@ jobs:
         pytest -v
     - name: Publish the package
       run: |
-        python3 setup.cfg sdist 
+        python3 sdist 
         twine upload dist/*
