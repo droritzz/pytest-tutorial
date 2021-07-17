@@ -8,7 +8,7 @@ setup(
     author_email="contact@otomato.io",
     url="https://github.com/droritzz/pytest-tutorial.git",
     license="GPLv3+",
-    
+
     classifiers=(
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
